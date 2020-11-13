@@ -1,0 +1,35 @@
+/* ここから下に記載していく */
+img {
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+.selected {
+    background-color: red;
+}
+button {
+    padding: 10px;
+    margin: 10px;
+}
+#message {
+    font-size: xx-large;
+    padding: 10px;
+    margin: 10px;
+}
+#OpponentPanel {
+    font-size: xx-large;
+    padding: 10px;
+    margin: 10px;
+}
+
+#ResultPanel {
+    font-size: xx-large;
+    padding: 10px;
+    margin: 10px;
+}
+
+#result {
+    font-size: xx-large;
+    padding: 10px;
+    margin: 10px;
+}

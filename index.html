@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>javascript/jQuery1回目</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<body>
+  <!-- この中に記述していく -->
+  <!-- ここから下にコードを書く -->
+
+  <div id="PlayerPanel"> 
+    <p id="message">自分の手を選んでくださいね</p>
+    <img src="janken0.png" onClick="onClickPlayerIcon(this)"/>
+    <img src="janken1.png" onClick="onClickPlayerIcon(this)"/>
+    <img src="janken2.png" onClick="onClickPlayerIcon(this)"/>
+  </div>
+
+  <div id="JankenControl">
+    <button onClick="janken()">ジャンケンポン！</button>
+  </div>
+
+  <div id="OpponentPanel">
+    <p>相手の手</p>
+    <img id='Opponent' src="hatena.png">
+  </div>  
+
+  <div id="ResultPanel">
+    <p>勝敗</p>
+    <p id="result"></p>
+  </div>
+
+  <!-- ここから上にコードを書く -->
+  <!-- この中に記述していく -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/mywork.js"></script>
+</body>
+
+</html>
